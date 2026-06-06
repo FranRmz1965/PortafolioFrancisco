@@ -689,6 +689,16 @@ roject-preview-small2 {
   object-fit: contain;
 }
 
+.about-layout.no-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-layout.no-photo .about-content {
+  max-width: 850px;
+  width: 100%;
+}
 
 .desktop-card {
   aspect-ratio: 16 / 10;
